@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: decoroom
+  datasource:
+    url: jdbc:mysql://localhost:3306/decoroom
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+kakao:
+  api:
+    url: https://kapi.kakao.com/v2/user/me
+    key: 6ef49707dd745add2f6d32e51851d073
